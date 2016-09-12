@@ -50,35 +50,35 @@ glyph = fl.glyph
 # - Cutomize ----------------------
 # -- List of diacritical marks used in font. 
 # -- These are default - enter yours here if different!
-diactiricalMarks = ['grave', 
-					'dieresis', 
-					'macron', 
-					'acute', 
-					'cedilla', 
-					'dotlessi', 
-					'dotlessj', 
-					'uni02BC', 
-					'circumflex', 
-					'caron', 
-					'breve', 
-					'dotaccent', 
-					'ring', 
-					'ogonek', 
-					'tilde', 
-					'hungarumlaut', 
-					'caroncomma', 
-					'commaaccent', 
-					'cyrbreve'
-					]
+diactiricalMarks = [	'grave', 
+			'dieresis', 
+			'macron', 
+			'acute', 
+			'cedilla', 
+			'dotlessi', 
+			'dotlessj', 
+			'uni02BC', 
+			'circumflex', 
+			'caron', 
+			'breve', 
+			'dotaccent', 
+			'ring', 
+			'ogonek', 
+			'tilde', 
+			'hungarumlaut', 
+			'caroncomma', 
+			'commaaccent', 
+			'cyrbreve'
+		]
 
 # -- List of named anchor specific displacements in tuple(x,y) format. 
 # -- MM Designs: Use list[typle(x,y)]. Each emelent in list represents shifts for each layer of MM typeface, or just use one tuple(x,y) dor all MM layers
 # -- Example: {'top':[(-100,-100), (-154,-154), (100,100), (20,20)], 'bottom':(300,300)} and etc...
 # -- Enter desired shifts for your anchors here!
 displaceAnchors = {
-					'top':(0,0),
-					'bottom':(0,0)
-					}
+			'top':(0,0),
+			'bottom':(0,0)
+		}
 
 # -- Do not fetch the anchors of Diactirical Marks and insert them into the glyph (for mark stacking ?!). 
 # -- Default is True!
