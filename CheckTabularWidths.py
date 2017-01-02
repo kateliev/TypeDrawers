@@ -71,10 +71,10 @@ print 'Done.'
 # --- Init
 # - Enter below all types to be checked in format: list[tuple(Parameter_01 !!STR/LIST!!, Width_01 !!INT!!),..(Parameter_NN, Width_NN)]
 widths2check = [('.tosf', 698),
-				('.tf', 698),
-				(['plus','minus','equal','multiply','divide','plusminus','approxequal','logicalnot','notequal','lessequal','greaterequal','less','greater','asciicircum'], 500),
-				(['gravecomb','acutecomb','uni0302','tildecomb','uni0304','uni0306','uni0307','uni0308','uni030A','uni030B','uni030C','uni0312','uni0313','uni0326','uni0327','uni0328','gravecomb.case','acutecomb.case','uni0302.case','tildecomb.case','uni0304.case','uni0306.case','uni0307.case','uni0308.case','uni030A.case','uni030B.case','uni030C.case','uni0326.case','uni0327.case','uni0328.case','gravecomb.sc','acutecomb.sc','uni0302.sc','tildecomb.sc','uni0304.sc','uni0306.sc','uni0307.sc','uni0308.sc','uni030A.sc','uni030B.sc','uni030C.sc','uni0326.sc','uni0327.sc','uni0328.sc'], 1)
-				]
+		('.tf', 698),
+		(['plus','minus','equal','multiply','divide','plusminus','approxequal','logicalnot','notequal','lessequal','greaterequal','less','greater','asciicircum'], 500),
+		(['gravecomb','acutecomb','uni0302','tildecomb','uni0304','uni0306','uni0307','uni0308','uni030A','uni030B','uni030C','uni0312','uni0313','uni0326','uni0327','uni0328','gravecomb.case','acutecomb.case','uni0302.case','tildecomb.case','uni0304.case','uni0306.case','uni0307.case','uni0308.case','uni030A.case','uni030B.case','uni030C.case','uni0326.case','uni0327.case','uni0328.case','gravecomb.sc','acutecomb.sc','uni0302.sc','tildecomb.sc','uni0304.sc','uni0306.sc','uni0307.sc','uni0308.sc','uni030A.sc','uni030B.sc','uni030C.sc','uni0326.sc','uni0327.sc','uni0328.sc'], 1)
+		]
 
 #--- Process All open fonts
 for fID in range(len(fl)):
